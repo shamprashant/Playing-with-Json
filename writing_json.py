@@ -7,5 +7,6 @@ var = {
 
 import json
 
+#writing our object into json file
 with open('example_data.json', 'w') as file:
 	json.dump(var, file)
